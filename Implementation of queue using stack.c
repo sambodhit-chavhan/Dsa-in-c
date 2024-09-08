@@ -72,7 +72,7 @@ int dequeue() {
 
     for(int i=top2;i>=0;i--)
     {
-        push1(pop2);
+        push1(pop2());
     }
 }
 
