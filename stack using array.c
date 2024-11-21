@@ -74,7 +74,7 @@ int main()
     scanf("%d",&capa);
     int arr[capa];
     int stack[capa];
-    printf("Enter the %d elements.\n");
+    printf("Enter the %d elements.\n",capa);
     for(int i=0; i<capa; i++)
     {
         printf("Enter the %d element : ",i+1);
